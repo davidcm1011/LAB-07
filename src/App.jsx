@@ -4,11 +4,11 @@ import { Button } from './components/Button'
 
 function App() {
  
-  const buttonText = "Count +5 :";
+  const buttonText = "randomAlert:";
 
   return (
     <>
-      <h1>Aumenta de 5 en 5</h1>
+      <h1>lucky</h1>
       <Button text={buttonText}/>
     </>
   )
