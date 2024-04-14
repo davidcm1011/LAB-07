@@ -1,15 +1,16 @@
 import './App.css'
-import { Button } from './components/Button'
+import { Buttonhace } from './components/RandomComponent';
 
 
 function App() {
- 
-  const buttonText = "randomAlert:";
-
+  
+  const buttonText = "numero :";
+  const alertText = "es par o impar";
   return (
     <>
-      <h1>lucky</h1>
-      <Button text={buttonText}/>
+      <h1>averigua si el numero es par o impar</h1>
+      <Buttonhace text={buttonText} text1={alertText}/>
+      
     </>
   )
 }
