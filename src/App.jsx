@@ -1,16 +1,13 @@
 import './App.css'
-import { Buttonhace } from './components/RandomComponent';
+import { Eventmirror } from './components/CompWithProps';
 
 
 function App() {
   
-  const buttonText = "numero :";
-  const alertText = "es par o impar";
   return (
     <>
-      <h1>averigua si el numero es par o impar</h1>
-      <Buttonhace text={buttonText} text1={alertText}/>
-      
+      <h1>Reflejando</h1>
+      <Eventmirror />      
     </>
   )
 }
