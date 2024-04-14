@@ -1,15 +1,15 @@
 import './App.css'
-import { List } from './components/List';
-import { WapperList } from './components/WrapperList'
+import { Button } from './components/Button'
+
+
 function App() {
-  
-  const buttonText = "Count : ";
+ 
+  const buttonText = "Count +5 :";
 
   return (
     <>
-      < WapperList>
-        <List/>
-      </WapperList>
+      <h1>Aumenta de 5 en 5</h1>
+      <Button text={buttonText}/>
     </>
   )
 }
